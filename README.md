@@ -50,12 +50,10 @@ the binary running the code:
 
 
 	Filesys fs;
-	Filesys::Directory dir;
-
-	dir = fs.queryDirectory();
+	Filesys::Directory dir = fs.queryDirectory();
 
 	while(!dir.atEnd()) {
-		std::cout << dir.getNextName();
+		std::cout << dir.getNextName() << std::endl;
 	}
 
 
