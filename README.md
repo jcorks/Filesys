@@ -58,6 +58,14 @@ the binary running the code:
 
 
 
+
+
+
+Filesys::Directory is not just for retrieving object names; you may also query if the 
+object is a file or directory, search of an object name with the directory, and more.
+
+
+	
 	
 
 
