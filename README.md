@@ -28,15 +28,18 @@ Usage
 
 Using Filesys was designed to be very intuitive. To get started, instantiate an 
 Filesys object:
+
 	Filesys fs;
 
 This will initialize Filesys to your current writing directory. 
 You may specify a different directory:
+
 	Filesys fs("/mynewDir/");
 
 Once Filesys is initialized, you may query the contents of the directory. 
 Querying a directory returns a Filesys::Directory object which ontains all the
-directory;
+directory
+
 	Filesys::Directory thisDir = fs.queryDirectory();
 
 To retrieve the next directory object, you may either use the extraction 
